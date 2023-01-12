@@ -10,10 +10,25 @@
 <body>
   <div class = "wrapper">
     <div class="container header">
-        <div class="header-search">search</div>
-        <div class="header-user-panel">user panel</div>
-        <div class="header-user-welcome"> welcome</div>
-        <div class="header-buttons">buttons</div>
+        <div class="header-top">
+            <button class="small-button">S</button>
+            <div class="header-search">search bar</div>
+            <button class="small-button">B</button>
+            <button class="header-user-menu" type="menu">
+              <div class="profile-pic"></div>
+              <div>username</div>
+            </button>
+          </div>
+        <div class="header-bottom">
+          <div class="header-user-welcome">
+            <div id="header-profile-pic" class="profile-pic">Pr</div>
+            <div id="hi-text">Hi there,</div>
+            <div id="username-text">Morgan Oakley (@morgan)</div>
+          </div>
+          <button class="action-button">New</button>
+          <button class="action-button">Upload</button>
+          <button class="action-button">Share</button>
+        </div>
     </div>
     <div class="container sidebar">
         <div class="branding">
@@ -65,7 +80,53 @@
 
         </div>
     </div>
-    <div class="container main-content">main</div>
+    <div class="container main-content">
+      <div class="main-panel main-projects">
+        <div class="main-title">Your Projects</div>
+        <div class="main-content-container">
+          <div class="card">
+            <div class="card-title">Super Cool Project</div>
+            <div class="card-content">potatoes potatoes potatoes potatoes potatoes potatoes potatoes</div>
+            <button class="small-button"></button>
+            <button class="small-button"></button>
+            <button class="small-button"></button>
+          </div>
+          <div class="card">
+            <div class="card-title">Less Cool Project</div>
+            <div class="card-content">potatoes potatoes potatoes potatoes potatoes potatoes potatoes</div>
+            <button class="small-button"></button><button class="small-button"></button><button class="small-button"></button>
+          </div>
+          <div class="card">
+            <div class="card-title">Impossible App</div>
+            <div class="card-content">potatoes potatoes potatoes potatoes potatoes potatoes potatoes</div>
+            <button class="small-button"></button><button class="small-button"></button><button class="small-button"></button>
+          </div>
+          <div class="card">
+            <div class="card-title">Easy Peasy App</div>
+            <div class="card-content">potatoes potatoes potatoes potatoes potatoes potatoes potatoes</div>
+            <button class="small-button"></button><button class="small-button"></button><button class="small-button"></button>
+          </div>
+          <div class="card">
+            <div class="card-title">Ad Blocker</div>
+            <div class="card-content">potatoes potatoes potatoes potatoes potatoes potatoes potatoes</div>
+            <button class="small-button"></button><button class="small-button"></button><button class="small-button"></button>
+          </div>
+          <div class="card">
+            <div class="card-title">Money Maker</div>
+            <div class="card-content">potatoes potatoes potatoes potatoes potatoes potatoes potatoes</div>
+            <button class="small-button"></button><button class="small-button"></button><button class="small-button"></button>
+        </div>
+        </div>
+      </div>
+      <div class="main-panel main-announcements">
+        <div class="main-title">Announcements</div>
+        <div class="card"></div>
+      </div>
+      <div class="main-panel main-trending">
+        <div class="main-title">Trending</div>
+        <div class="card"></div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
